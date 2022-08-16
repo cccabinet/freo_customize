@@ -2,13 +2,14 @@
 
 詳しくは、各リリースファイルのREADME.mdを参照してください。
 
-## [1.0.3] - 2022-08-11
+## [1.0.3] - 2022-08-16
 
 ### カスタマイズの内容
 
 - 制限パスワードのインプットタイプの修正（input type="text" ⇒ input type="password"）
 - 拍手プラグインのお礼管理画面でTinyMCE用のメディア登録・メディア管理プラグインを導入したのに、アイコン画像を削除し忘れたので削除
 - タグの位置の修正
+- セットアップ設定編集ファイルの修正（jquery.jsをCDNに変更したので、設定の変更）
 
 バージョンアップは、以下のファイルを最新版付属のものに差し替えてください。<br>（★：管理画面用バージョンも該当、■：レスポンシブバージョン（差分版も同様）も該当））
 
@@ -20,6 +21,7 @@
 - markItUp!/freo/templates/internals/admin/page_form.html ★■
 - plugins\clap\templates\plugins\clap\admin_thank_form.html ★■
 - plugins\circle\templates\plugins\circle\form.html ■
+- freo/libs/freo/prepare.php ■
 - freo/libs/freo/version.php ★■
 
 
