@@ -2,24 +2,33 @@
 
 詳しくは、各リリースファイルのREADME.mdを参照してください。
 
-## [1.0.3] - 2022-08-11
+## [1.0.3] - 2022-08-16
 
 ### カスタマイズの内容
 
 - 制限パスワードのインプットタイプの修正（input type="text" ⇒ input type="password"）
 - 拍手プラグインのお礼管理画面でTinyMCE用のメディア登録・メディア管理プラグインを導入したのに、アイコン画像を削除し忘れたので削除
 - タグの位置の修正
+- セットアップ設定編集ファイルの修正（jquery.jsをCDNに変更したので、設定の変更）
+- cssファイルのカスマイズ版表記の修正（CSS Validation Serviceによると、cssファイルで@charset 規則が指定できるのは、スタイルシートの最初の部分のみとのことで、カスタマイズ表記を後に移動）
 
 バージョンアップは、以下のファイルを最新版付属のものに差し替えてください。<br>（★：管理画面用バージョンも該当、■：レスポンシブバージョン（差分版も同様）も該当））
 
+- freo/css/admin.css ★■
+- freo/css/common.css ★
+- freo/css/error.css
+- freo/css/iframe.css ★■
+- freo/css/setup.css
+- template_custom/freo/css/default.css
 - freo/templates/internals/admin/entry_form.html ★■
 - freo/templates/internals/admin/iframe_media_form.html ★■
 - freo/templates/internals/admin/media_form.html ★■
 - freo/templates/internals/admin/page_form.html ★■
 - markItUp!/freo/templates/internals/admin/entry_form.html ★■
 - markItUp!/freo/templates/internals/admin/page_form.html ★■
-- plugins\clap\templates\plugins\clap\admin_thank_form.html ★■
-- plugins\circle\templates\plugins\circle\form.html ■
+- plugins/clap/templates/plugins/clap/admin_thank_form.html ★■
+- plugins/circle/templates/plugins/circle/form.html ■
+- freo/libs/freo/prepare.php ■
 - freo/libs/freo/version.php ★■
 
 
