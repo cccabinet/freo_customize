@@ -2,6 +2,28 @@
 
 詳しくは、各リリースファイルのREADME.mdを参照してください。
 
+## [1.1.0] - 2023-08-06
+
+### カスタマイズの内容
+
+- inyMCE6に対応。
+- 他のライブラリもバージョン表記を一部省略したものに変更。
+
+バージョンアップは、以下のファイルを最新版付属のものに差し替えてください。<br>（★：管理画面用バージョンも該当、■：レスポンシブバージョン（差分版も同様）も該当））
+
+- freo/js/admin.js ★■
+- freo/js/tinymce/langs/ja.js ★■
+- freo/templates/header.html ■
+- freo/templates/internals/admin/header.html ★■
+- freo/templates/internals/admin/iframe_header.html ★■
+- markItUp!/freo/templates/internals/admin/header.html ★■
+- plugins/form/templates/plugins/form/iframe_header.html ■
+- plugins/media_comic/templates/plugins/media_comic/default.html ■
+- plugins_catalog/catalog/templates/plugins/catalog/iframe_header.html ■
+- plugins_catalog/catalog_order/templates/plugins/catalog_order/admin_order_print.html ★■
+- template_custom/freo/templates/header.html ■
+- freo/libs/freo/version.php ★■
+
 ## [1.0.3] - 2022-08-16
 
 ### カスタマイズの内容
