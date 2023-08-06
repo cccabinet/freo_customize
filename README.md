@@ -10,6 +10,8 @@
 - [responsive_diff：レスポンシブ差替版](https://github.com/cccabinet/freo_customize/tree/responsive_diff)<br>バグ修正やJSプラグインの更新、レスポンシブに対応をして変更のあったファイルのみを収納
 
 ## ファイル構成
+<details>
+<summary>構成の内容を開く</summary>
 <pre><code>freo_customize/
 ├── freo/
 │   ├── configs/
@@ -165,7 +167,8 @@
             ├── header.html（ヘッダの差替テンプレート）
             └── utility_page.html（ギャラリーのページ用ユーティリティテンプレート）
 </code></pre>
-
+</details>
+    
 ## フォルダの種類
 - **freo**<br>freo（v1.21.0）本体（モバイル用テンプレートを除く）に[ファイル管理プラグイン](https://freo.jp/plugin/filemanager.html)と[Smarty用プラグイン](https://freo.jp/plugin/smarty/index.html)を追加し、[プレビュー表示を訪問者向けの表示](https://freo.jp/document/customize/preview.html)のテンプレートに差替<br>※`freo/css/colorbox.css`、`freo/js/jquery.js`、`freo/js/jquery.colorbox.js`、`freo/js/jquery.tablesorter.js`、`freo/images/colorbox/`、`freo/tinymce/` は不要のため削除済み
 - **markItUp!**<br>[テキストエディタをTinyMCEからmarkItUp!に変更する](https://freo.jp/document/customize/markitup.html)場合のJSやテンプレートの差替ファイル<br>※同梱しているmarkItUp!本体は最新版にし、さらに[拡張版](https://cccabinet.jpn.org/view/102)（一部を除く）を導入済み<br>:bulb:**一旦freo本体を設置してから上書きして差替えて下さい**（`freo/js/tinymce/` は不要なので削除してもOK）
@@ -196,11 +199,12 @@
 - [ファイル管理プラグイン](https://freo.jp/plugin/filemanager.html)を標準で導入
 - freoの公式サイトで配布されている[Smarty用プラグイン](https://freo.jp/plugin/smarty/index.html)を標準で導入
 - エントリー・ページ・インフォメーション登録時の[プレビュー表示を訪問者向けの表示](https://freo.jp/document/customize/preview.html)に差替
-### JSプラグインの更新とCDN化
+### JSライブラリの更新とCDN化
 - jQuery、ColorBox、tablesorter（非公式フォーク版）、TinyMCE、markItUp!を最新版に更新<br>さらにjQuery、ColorBox、tablesorter、TinyMCEはCDNで読み込み設定済み（旧版のファイルは削除済み）
   - [ColorBoxのレスポンシブ設定](https://cccabinet.jpn.org/view/65)
   - [メディアの挿入ファイルを更新日時順に](https://cccabinet.jpn.org/view/96)
   - [freoにTinyMCE5を導入する](https://cccabinet.jpn.org/view/103)<br>カラーパレットも調整（基本の16カラー+オレンジ+文字色）
+  - **TinyMCE6に対応**（v1.1.0）
   - [メディア管理/メディア登録をTinyMCEのプラグインにする](https://cccabinet.jpn.org/view/105)
   - [TinyMCEのモバイル表示に対応](https://cccabinet.jpn.org/view/101)
   - [markItUp!の設定を調整](https://cccabinet.jpn.org/view/102)<br>カラーパレットも調整（基本の16カラー+オレンジ+文字色）
