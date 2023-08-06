@@ -1,8 +1,8 @@
 /*********************************************************************
 
- freo | 管理画面 (2022/08/07)
+ freo | 管理画面 (2023/08/06)
 
- Copyright(C) 2009-2022 freo.jp
+ Copyright(C) 2009-2023 freo.jp
  customized：cccabinet（https://cccabinet.jpn.org/)
 
 *********************************************************************/
@@ -165,13 +165,14 @@ tinymce.init({
 	entity_encoding : 'raw',
 	extended_valid_elements: 'iframe[*]',
 	height: 500,
+	element_format : 'xhtml',
 	plugins: 'advlist lists link image charmap preview anchor hr nonbreaking searchreplace visualblocks code fullscreen insertdatetime media table pagebreak quickbars help',
 	external_plugins:{
 		'freomedia': freo_path + 'js/tinymce/plugins/freomedia/plugin.min.js',
 		'freomediaform': freo_path + 'js/tinymce/plugins/freomediaform/plugin.min.js',
 		'netabare': freo_path + 'js/tinymce/plugins/netabare/plugin.min.js',
 	},
-	toolbar: 'bold underline strikethrough | styleselect | bullist numlist outdent indent | code fullscreen | forecolor backcolor removeformat | link unlink image media charmap pagebreak | freomedia freomediaform netabare | searchreplace | undo redo help',
+	toolbar: 'bold underline strikethrough | styles | bullist numlist outdent indent | code fullscreen | forecolor backcolor removeformat | link unlink image media charmap pagebreak | freomedia freomediaform netabare | searchreplace | undo redo help',
 	toolbar_mode: 'sliding',
 	menu: {
 		tools: { title: 'Tools', items: 'code | freomedia freomediaform netabare' }
@@ -182,7 +183,7 @@ tinymce.init({
 		toolbar: 'bullist numlist styleselect'
 	},
 	quickbars_insert_toolbar: 'freomedia image media quicktable | hr charmap nonbreaking pagebreak',
-	quickbars_selection_toolbar: 'bold underline strikethrough styleselect | quicklink removeformat',
+	quickbars_selection_toolbar: 'bold underline strikethrough styles | quicklink removeformat',
 	color_map: [
 		'#FFFFFF', 'ホワイト',
 		'#C0C0C0', 'シルバー',
