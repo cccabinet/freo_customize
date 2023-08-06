@@ -10,6 +10,8 @@
 - [responsive_diff：レスポンシブ差替版](https://github.com/cccabinet/freo_customize/tree/responsive_diff)<br>バグ修正やJSプラグインの更新、レスポンシブに対応をして変更のあったファイルのみを収納
 
 ## ファイル構成
+<details>
+<summary>構成の内容を開く</summary>
 <pre><code>freo_customize/
 ├── freo/
 │   ├── css/
@@ -216,6 +218,7 @@
             ├── header.html（ヘッダの差替テンプレート）
             └── utility_page.html（ギャラリーのページ用ユーティリティテンプレート）
 </code></pre>
+</details>
 ※のファイルは、[登録/編集画面にタグの候補をタグクラウド一覧で表示する](https://cccabinet.jpn.org/view/69)ために使用
 
 ## フォルダの種類
@@ -248,11 +251,12 @@
 - [ファイル管理プラグイン](https://freo.jp/plugin/filemanager.html)を標準で導入
 - freoの公式サイトで配布されている[Smarty用プラグイン](https://freo.jp/plugin/smarty/index.html)を標準で導入
 - エントリー・ページ・インフォメーション登録時の[プレビュー表示を訪問者向けの表示](https://freo.jp/document/customize/preview.html)に差替
-### JSプラグインの更新とCDN化
+### JSライブラリの更新とCDN化
 - jQuery、ColorBox、tablesorter（非公式フォーク版）、TinyMCE、markItUp!を最新版に更新<br>さらにjQuery、ColorBox、tablesorter、TinyMCEはCDNで読み込み設定済み（旧版のファイルは削除済み）
   - [ColorBoxのレスポンシブ設定](https://cccabinet.jpn.org/view/65)
   - [メディアの挿入ファイルを更新日時順に](https://cccabinet.jpn.org/view/96)
   - [freoにTinyMCE5を導入する](https://cccabinet.jpn.org/view/103)<br>カラーパレットも調整（基本の16カラー+オレンジ+文字色）
+  - **TinyMCE6に対応**（v1.1.0）
   - [メディア管理/メディア登録をTinyMCEのプラグインにする](https://cccabinet.jpn.org/view/105)
   - [TinyMCEのモバイル表示に対応](https://cccabinet.jpn.org/view/101)
   - [markItUp!の設定を調整](https://cccabinet.jpn.org/view/102)<br>カラーパレットも調整（基本の16カラー+オレンジ+文字色）
