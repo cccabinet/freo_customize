@@ -7,11 +7,13 @@
 ### カスタマイズの内容
 
 - PHPファイル内のJSライブラリのバージョン表記を一部省略したものに変更。
+- TinyMCE6用翻訳ファイルの更新（「ページ区切り」を「続きを読むを挿入」に変更）
 
-バージョンアップは、以下のファイルを最新版付属のものに差し替えてください。<br>（■：レスポンシブバージョン（差分版も同様）も該当））
+バージョンアップは、以下のファイルを最新版付属のものに差し替えてください。<br>（★：管理画面用バージョンも該当、■：レスポンシブバージョン（差分版も同様）も該当））
 
-- freo\libs\freo\internals\setup\default.php ■
-- freo\libs\freo\prepare.php ■
+- freo/js/tinymce/langs/ja.js ★■
+- freo/libs/freo/internals/setup/default.php ■
+- freo/libs/freo/prepare.php ■
 - freo/libs/freo/version.php ■
 
 ## [1.1.0] - 2023-08-06
