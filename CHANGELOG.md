@@ -2,6 +2,31 @@
 
 詳しくは、各リリースファイルのREADME.mdを参照してください。
 
+## [1.1.2] - 2023-08-15
+
+### カスタマイズの内容
+
+- JSライブラリのバージョン表記を一部省略したのを再度最新バージョンの表記に変更。
+- TinyMCE6の設定を調整。
+
+バージョンアップは、以下のファイルを最新版付属のものに差し替えてください。<br>（★：管理画面用バージョンも該当、■：レスポンシブバージョン（差分版も同様）も該当））
+
+- freo/js/admin.js ★■
+- freo/js/tinymce/langs/ja.js ★■
+- freo/libs/freo/internals/setup/default.php ■
+- freo/libs/freo/prepare.php ■
+- freo/libs/freo/version.php ■
+- freo/templates/header.html ■
+- freo/templates/internals/admin/header.html ★■
+- freo/templates/internals/admin/iframe_header.html ★■
+- markItUp!/freo/templates/internals/admin/header.html ★■
+- plugins/form/templates/plugins/form/iframe_header.html ■
+- plugins/media_comic/templates/plugins/media_comic/default.html ■
+- plugins_catalog/catalog/templates/plugins/catalog/iframe_header.html ■
+- plugins_catalog/catalog_order/templates/plugins/catalog_order/admin_order_print.html ★■
+- template_custom/freo/templates/header.html ■
+- freo/libs/freo/version.php ★■
+
 ## [1.1.1] - 2023-08-07
 
 ### カスタマイズの内容
