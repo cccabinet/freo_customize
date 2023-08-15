@@ -26,6 +26,7 @@
 - plugins_catalog/catalog_order/templates/plugins/catalog_order/admin_order_print.html ★■
 - template_custom/freo/templates/header.html ■
 - freo/libs/freo/version.php ★■
+- （レスポンシブ版、レスポンシブ差替版のみ）freo/libs/freo/checker.php ←カスタマイズ版の表記が抜けていたので修正
 
 ## [1.1.1] - 2023-08-07
 
