@@ -2,7 +2,7 @@
 
 /*********************************************************************
 
- freo | 設定編集 (2023/08/07)
+ freo | 設定編集 (2023/08/15)
 
  Copyright(C) 2009-2023 freo.jp
  customized：cccabinet（https://cccabinet.jpn.org/)
@@ -302,7 +302,7 @@ if (file_exists(FREO_CSS_DIR . 'setup.css')) {
 	echo "<link rel=\"stylesheet\" href=\"" . FREO_CSS_DIR . "setup.css\" type=\"text/css\" media=\"all\" />\n";
 }
 if (file_exists(FREO_JS_DIR)) {
-	echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js\" integrity=\"sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=\" crossorigin=\"anonymous\"></script>\n";
+	echo "<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js\" integrity=\"sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=\" crossorigin=\"anonymous\"></script>\n";
 	echo "<script type=\"text/javascript\">\n";
 	echo "$(document).ready(function() {\n";
 	echo "	if ($('#database_type').val() != 'mysql') {\n";
