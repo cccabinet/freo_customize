@@ -1,6 +1,6 @@
 /*********************************************************************
 
- freo | 管理画面 (2023/08/06)
+ freo | 管理画面 (2023/08/15)
 
  Copyright(C) 2009-2023 freo.jp
  customized：cccabinet（https://cccabinet.jpn.org/)
@@ -172,7 +172,7 @@ tinymce.init({
 		'freomediaform': freo_path + 'js/tinymce/plugins/freomediaform/plugin.min.js',
 		'netabare': freo_path + 'js/tinymce/plugins/netabare/plugin.min.js',
 	},
-	toolbar: 'bold underline strikethrough | styles | bullist numlist outdent indent | code fullscreen | forecolor backcolor removeformat | link unlink image media charmap pagebreak | freomedia freomediaform netabare | searchreplace | undo redo help',
+	toolbar: 'bold underline strikethrough | styles | bullist numlist outdent indent | code fullscreen | forecolor backcolor removeformat | link unlink image media hr charmap pagebreak | freomedia freomediaform netabare | searchreplace | undo redo help',
 	toolbar_mode: 'sliding',
 	menu: {
 		tools: { title: 'Tools', items: 'code | freomedia freomediaform netabare' }
